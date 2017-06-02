@@ -9,7 +9,9 @@ public class StatusResponse extends CheckoutResponse{
 	private String amount;
 	private String currency;
 	private Result result;
+	private ResultDetails resultDetails;
 	private Card card;
+
 	private Map<String, String> customParameters;
 
 	public String getRegistrationId()
@@ -50,6 +52,12 @@ public class StatusResponse extends CheckoutResponse{
 	public void setResult(Result result) {
 		this.result = result;
 	}
+	public ResultDetails getResultDetails() {
+		return resultDetails;
+	}
+	public void setResultDetails(ResultDetails resultDetails) {
+		this.resultDetails = resultDetails;
+	}	
 	public Card getCard() {
 		return card;
 	}
