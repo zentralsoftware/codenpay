@@ -1,4 +1,5 @@
 package com.codenpay;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ResultDetails {
 
