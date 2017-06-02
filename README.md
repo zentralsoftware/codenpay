@@ -7,8 +7,8 @@ This is an implementation of COPYANDPAY
 1. Create an Openshift account
 2. Setup environment by executing the following commands
 ```python
-rhc app create vitaminc jbossews-2.0
-rhc cartridge add mongodb-2.4 -a vitaminc
+rhc app create vitamind jbossews-2.0
+rhc cartridge add mongodb-2.4 -a vitamind
 ```
 3. Pull source code
 ```python
@@ -21,7 +21,7 @@ git push
 ```
 
 ## Using codenpay ##
-1. Open http://vitaminc-copynpay.rhcloud.com/
+1. Open http://vitamind-copynpay.rhcloud.com/
 2. Choose menu "Checkout (1st Phase)"
 3. Fill in the payment widget
 4. Click "Pay now"
