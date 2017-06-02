@@ -48,6 +48,7 @@ public class CopyAndPayImpl implements CopyAndPay
 		urlParameters.add(new BasicNameValuePair("amount", "99.95"));
 		urlParameters.add(new BasicNameValuePair("currency", "EUR"));
 		urlParameters.add(new BasicNameValuePair("createRegistration", "true"));
+		urlParameters.add(new BasicNameValuePair("testMode", "EXTERNAL"));		
 
 		CheckoutResponse resp;
 		post.setEntity(new UrlEncodedFormEntity(urlParameters));
