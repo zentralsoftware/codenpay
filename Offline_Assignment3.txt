@@ -1,0 +1,55 @@
+﻿Dear Faisal,
+
+first of all thank you for application and your interest in our company.
+ 
+We would like to ask you to prepare a task before we schedule the interview:
+ 
+"Tokenization and One-click checkout tutorial with COPYandPAY”
+- The online tutorials for Tokenization and One-click checkout can be found respectively: 
+>> https://docs.oppwa.com/tutorials/integration-guide/widget-tokenisation
+>> https://docs.oppwa.com/tutorials/integration-guide/one-click
+
+Assignment:
+Implement a basic checkout page experience based on COPYandPAY that features the tokenisation and one-click checkout solutions.
+The application must execute the following steps:
+Phase 1 (Store the card)
+> Load COPYandPAY widget where the user can enter credit card data
+>> After the payment button is clicked both the payment and the storing of the credit card details happen
+> Retrieve from the response
+>> Id of the payment transaction
+>> Id of the tokenized card
+
+Phase 2 (Use the token)
+> The shopper comes back on the checkout page and wants to use the tokenized card in Phase 1.
+>> The widget is rendered as One-clik checkout showing the card stored in Phase 1
+> The shopper executes the payment
+> Retrieve from the response
+>> Id of the payment transaction
+
+Validation criteria:
+- The amount of the payment should be EUR 99,95.
+- The card holder must be you name.
+- The following test-card numbers are used:
+1) 4200 0000 0000 0000
+2) 4012 0010 3627 5556
+
+- Provide us with the unique-ID of the tests peformed
+- Provide us the source codes for step 1 to 3
+- This source code must be working when copy-and-pasted into an application.
+Finally, answer briefly the following questions:
+> What is the difference between card 1 and card 2? 
+> Can you describe the checkout worflow from the shopper perspective?
+> Is the workflow different between card 1 and card 2? Why? How does this impact the user experience?
+
+Just to give you a hint for your effort: I would assume this task to take not more than 1 hour. Maybe 2 hours if you use a less well-known language.
+
+We expect your results within in a week. It is not a problem if you can’t make it, please let us know by when we can expect your response.
+
+After receiving your response, the next process step would be a face to face interview to be done in person or remotely.
+
+Please let us know about your availability.
+
+I look forward to your response!
+
+Thank you, 
+Christina 

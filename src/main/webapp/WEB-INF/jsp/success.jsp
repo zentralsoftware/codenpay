@@ -2,7 +2,7 @@
 <html>
   <head>
   	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-    <title>codenpay</title>
+    <title>Payment Successful</title>
   </head>
 <body>
 <h1>codenpay</h1> 
@@ -14,6 +14,10 @@
         <li class="pure-menu-item"><a href="/list" class="pure-menu-link">Transactions</a></li>
     </ul>
 </div>
-
+<h3>Your payment has been successful.</h3><br>
+<h3>ID: ${id} </h3><br>
+<h3>Amount: ${currency} ${amount} </h3><br>
+<h3>Brand: ${brand} </h3><br>
+<br>
 </body>
 </html>
