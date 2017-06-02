@@ -30,14 +30,6 @@ public class ResultDetails {
 	public void setConnectorTxID3(String connectorTxID3) {
 		this.connectorTxID3 = connectorTxID3;
 	}	
-	@JsonProperty("ConnectorTxID3")
-	public String getConnectorTxID3() {
-		return connectorTxID3;
-	}
-	public void setConnectorTxID3(String connectorTxID3) {
-		this.connectorTxID3 = connectorTxID3;
-	}
-
 	public String getReconciliationId() {
 		return reconciliationId;
 	}
